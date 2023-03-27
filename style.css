@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+ul{
+    list-style-type: disc;
+    font-weight: bold;
+}
+
+
+a{
+    text-decoration: none;
+    color: #000000;
+    margin: left;
+}
+
+
+p{
+    color: #000000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: #d8d4d4;
+}
+
+header h1{
+    color: #000000;
+    font-size: 1.3rem;
+    background: #d8d4d4;
+}
+
+h2{
+    color: #000000;
+    font-size: 1.3rem;
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #ffffff;
+    color: black;
+    border: 1;
+}
+
+header{
+background: no-repeat center/cover url('https://www.teahub.io/photos/full/86-861712_estadio-santiago-bernabeu-4k.jpg');
+height: calc(120vh - 100px);
+}
+
+header nav{
+display: flex;
+justify-content: space-between;
+font-size: 1rem;
+margin: auto 50px;
+}
+
+header nav h1{
+display: flex;
+font-size: 1.3rem;
+margin: left;
+}
+
+header nav p{
+    font-weight: bold;
+    font-size: 2.3rem;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    margin: left;
+}
+
+.header-content{
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
+
+.header-content p{
+    background: bold;
+}
+
+.jogadores{
+    background: #5ba0d8;
+    padding: 55px;
+}
+
+.jogadores .jogadores-cards{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jogadores.jogadores-title{
+    text-align: center;
+    margin: 35px 0;
+    position: center;
+}
+
+
+.jogadores .card{
+    width: 250px;
+    height: 420px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+}
+
+.jogadores .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
+.jogadores .card-content{
+    padding: 0 15px;
+
+}
+
+.jogadores .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 ;
+}
+
+.jogadores .card-content ul li{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    color: rgb(63, 62, 62);
+    font-weight: bold;
+}
+
+.jogadores .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.jogadores .card-content ul li h1{
+    font-size: 1rem;
+}
+
+.jogadores .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.jogadores .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 160px;
+    border-radius: 0 8px 8px 0;
+    padding: 5px 10px;
+}
+
+.jogadores .card .card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+
+.titulos{
+    padding: 90px;
+}
+
+.titulos .titulos-title{
+    text-align: center;
+    margin: 35px 0;
+}
+
+.titulos .titulos-cards{
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.titulos .card{
+    width: 275px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.titulos .card svg{
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+    transition: all 1s;
+}
+
+.titulos .card svg:hover{
+    stroke: #5ba0d8;
+    transform: scale(1.1);
+}
+
+.titulos .card h3{
+    font-weight: bold;
+}
+
+.titulos .card p{
+    color: rgba(0, 0, 0, 0.603);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.titulos .card .card-content{
+    height: 180px;
+    text-align: center;
+}
+
+.contato{
+    padding: 110px;
+    background:#5ba0d8;
+    position: relative;
+    text-align: right;
+
+}
+
+.contato{
+    padding: 110px;
+    background: #5ba0d8;
+    position: relative;
+    text-align: right;
+
+}
+
+.contato .contato-card{
+    width: 450px;
+    height: 350px;
+    background: white;
+    position: absolute;
+    z-index: 99;
+    border-radius: 8px;
+    top: calc(50% - 150px);
+    left: calc(20% - 175px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato .contato-card h1{
+    padding-left: 50px;
+    text-align: left;
+}
+
+.contato .contato-card li{
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+}
