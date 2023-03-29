@@ -43,6 +43,16 @@ h2{
     font-size: 1.3rem;
 }
 
+h3{
+    color: #000000;
+    font-size: 1.6rem;
+}
+
+h4{
+    color: #000000;
+    font-size: 1.6rem;
+}
+
 button{
     padding: 10px 15px;
     border-radius: 8px;
@@ -100,7 +110,7 @@ header nav ul li{
 
 .jogadores{
     background: #5ba0d8;
-    padding: 55px;
+    padding: 80px;
 }
 
 .jogadores .jogadores-cards{
@@ -111,10 +121,11 @@ header nav ul li{
     justify-content: center;
 }
 
-.jogadores.jogadores-title{
+.jogadores .jogadores-title{
     text-align: center;
     margin: 35px 0;
     position: center;
+    font-size: 2rem;
 }
 
 
@@ -188,12 +199,13 @@ header nav ul li{
 }
 
 .titulos{
-    padding: 90px;
+    padding: 120px;
 }
 
 .titulos .titulos-title{
     text-align: center;
     margin: 35px 0;
+    font-size: 2rem;
 }
 
 .titulos .titulos-cards{
